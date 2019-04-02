@@ -6,5 +6,7 @@ from . import views
 
 urlpatterns = [
         #Home page
-        url(r'^$', views.index, name='index')
+        url(r'^$', views.index, name='index'),
+        #Output allthemes
+        url(r'^topics/$', views.topics, name='topics'),
         ]
